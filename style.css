@@ -103,6 +103,32 @@ body{
     margin: 0px;
     font-size: 24px;
 }
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+   }
+   .forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+   }
+   .fraca{
+   width: 25%;
+    background-color: #E71B32;
+   }
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    width: 50%;
+    background-color: #FAF408;
+}
+.forte{
+    width: 100%;
+    background-color: #00FF85;
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
@@ -115,4 +141,4 @@ label{
     width: 20px;
     height: 20px;
     cursor: pointer;
-}m
+}
